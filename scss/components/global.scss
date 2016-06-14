@@ -1,0 +1,9 @@
+p{
+	color: $c-greylight;
+	@extend .txt-d9;
+}
+
+dd{
+	@extend .txt-d9;
+}
+

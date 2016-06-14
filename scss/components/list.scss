@@ -1,0 +1,28 @@
+.list-1{
+
+}
+
+
+.list-2{
+
+	a{
+		color: $c-greydark;
+		&:active{
+			background-color: $c-greylight;
+		}
+	}
+
+	ul {
+
+		&:last-child{
+			@extend .mb-half;
+		}
+
+		li{
+			@extend .ml-half;
+			&:focus{
+				background-color: $c-greylight;
+			}
+		}
+	}
+}

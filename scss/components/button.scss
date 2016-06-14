@@ -1,0 +1,74 @@
+.button {
+	color: $c-white !important;
+	border-radius:3px !important;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+
+	margin-left: .1rem;
+	margin-right: .1rem;
+	
+	&.link {
+		// border: none;
+		background-color: transparent;
+		color: inherit;
+		&.white {
+			color: $white;
+		}
+		&:hover {
+			border: 1px solid $medium-gray;
+			color: $medium-gray;
+			background-color: $medium-gray;
+			i {
+				color: $medium-gray;
+			}
+		}
+	}
+	&.white {
+		color: $primary-color;
+		background-color: $white;
+		&.hollow {
+			color: $white;
+			background: transparent;
+			border-color: $white;
+		}
+	}
+	&.green {
+		background-color: $c-green;
+		border: 1px solid $c-green !important;
+		i{
+			color: $white !important;	
+		}
+		&:hover{
+			i{
+				color: $c-green !important;
+			}
+		}
+		
+
+	}
+
+	&.grey {
+		background-color: transparent;
+		border: 1px solid $medium-gray !important;
+		i{
+			color: $c-greydark !important;
+		}
+
+		&:hover {
+			background-color: $c-blue;
+			color: #fff !important;
+			border: 1px solid $medium-gray !important;
+			i{
+				color: #fff !important;
+			}
+		}
+	}
+}
+
+.btn-1{
+	background-color:rgba(0,0,0,0) !important;
+	border:none;
+	color:#BDBDBD;
+	font-size:1.5rem;
+	margin: 0 !important;
+}

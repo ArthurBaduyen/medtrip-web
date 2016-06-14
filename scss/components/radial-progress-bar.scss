@@ -1,0 +1,323 @@
+//http://www.cssscript.com/pure-css-circular-percentage-bar/
+
+@mixin rotation($rotate){
+  -webkit-transform: rotate($rotate);
+  -moz-transform: rotate($rotate);
+  -ms-transform: rotate($rotate);
+  -o-transform: rotate($rotate);
+  transform: rotate($rotate);
+}
+
+@mixin transition_property($all){
+  -webkit-transition-property: $all;
+  -moz-transition-property: $all;
+  -o-transition-property: $all;
+  transition-property: $all;
+}
+
+@mixin transition_duration($duration){
+    -webkit-transition-duration: $duration;
+  -moz-transition-duration: $duration;
+  -o-transition-duration: $duration;
+  transition-duration: $duration;
+}
+
+.rect-auto, .c100.p51 .slice, .c100.p52 .slice, .c100.p53 .slice,
+.c100.p54 .slice, .c100.p55 .slice, .c100.p56 .slice, .c100.p57 .slice,
+.c100.p58 .slice, .c100.p59 .slice, .c100.p60 .slice, .c100.p61 .slice,
+.c100.p62 .slice, .c100.p63 .slice, .c100.p64 .slice, .c100.p65 .slice, 
+.c100.p66 .slice, .c100.p67 .slice, .c100.p68 .slice, .c100.p69 .slice,
+.c100.p70 .slice, .c100.p71 .slice, .c100.p72 .slice, .c100.p73 .slice,
+.c100.p74 .slice, .c100.p75 .slice, .c100.p76 .slice, .c100.p77 .slice,
+.c100.p78 .slice, .c100.p79 .slice, .c100.p80 .slice, .c100.p81 .slice,
+.c100.p82 .slice, .c100.p83 .slice, .c100.p84 .slice, .c100.p85 .slice,
+.c100.p86 .slice, .c100.p87 .slice, .c100.p88 .slice, .c100.p89 .slice,
+.c100.p90 .slice, .c100.p91 .slice, .c100.p92 .slice, .c100.p93 .slice,
+.c100.p94 .slice, .c100.p95 .slice, .c100.p96 .slice, .c100.p97 .slice,
+.c100.p98 .slice, .c100.p99 .slice, .c100.p100 .slice {
+  clip: rect(auto, auto, auto, auto);
+}
+
+.pie, .c100 .bar, .c100.p51 .fill, .c100.p52 .fill, .c100.p53 .fill,
+.c100.p54 .fill, .c100.p55 .fill, .c100.p56 .fill, .c100.p57 .fill,
+.c100.p58 .fill, .c100.p59 .fill, .c100.p60 .fill, .c100.p61 .fill,
+.c100.p62 .fill, .c100.p63 .fill, .c100.p64 .fill, .c100.p65 .fill,
+.c100.p66 .fill, .c100.p67 .fill, .c100.p68 .fill, .c100.p69 .fill,
+.c100.p70 .fill, .c100.p71 .fill, .c100.p72 .fill, .c100.p73 .fill,
+.c100.p74 .fill, .c100.p75 .fill, .c100.p76 .fill, .c100.p77 .fill,
+.c100.p78 .fill, .c100.p79 .fill, .c100.p80 .fill, .c100.p81 .fill,
+.c100.p82 .fill, .c100.p83 .fill, .c100.p84 .fill, .c100.p85 .fill,
+.c100.p86 .fill, .c100.p87 .fill, .c100.p88 .fill, .c100.p89 .fill,
+.c100.p90 .fill, .c100.p91 .fill, .c100.p92 .fill, .c100.p93 .fill,
+.c100.p94 .fill, .c100.p95 .fill, .c100.p96 .fill, .c100.p97 .fill,
+.c100.p98 .fill, .c100.p99 .fill, .c100.p100 .fill {
+  position: absolute;
+  border: 0.08em solid #307bbb;
+  width: 0.84em;
+  height: 0.84em;
+  clip: rect(0em, 0.5em, 1em, 0em);
+  border-radius: 50%;
+  @include rotation(180deg);
+}
+.pie-fill, .c100.p51 .bar:after,
+.c100.p51 .fill, .c100.p52 .bar:after, .c100.p52 .fill, .c100.p53 .bar:after,
+.c100.p53 .fill, .c100.p54 .bar:after, .c100.p54 .fill, .c100.p55 .bar:after,
+.c100.p55 .fill, .c100.p56 .bar:after, .c100.p56 .fill, .c100.p57 .bar:after,
+.c100.p57 .fill, .c100.p58 .bar:after, .c100.p58 .fill, .c100.p59 .bar:after,
+.c100.p59 .fill, .c100.p60 .bar:after, .c100.p60 .fill, .c100.p61 .bar:after,
+.c100.p61 .fill, .c100.p62 .bar:after, .c100.p62 .fill, .c100.p63 .bar:after,
+.c100.p63 .fill, .c100.p64 .bar:after, .c100.p64 .fill, .c100.p65 .bar:after,
+.c100.p65 .fill, .c100.p66 .bar:after, .c100.p66 .fill, .c100.p67 .bar:after,
+.c100.p67 .fill, .c100.p68 .bar:after, .c100.p68 .fill, .c100.p69 .bar:after,
+.c100.p69 .fill, .c100.p70 .bar:after, .c100.p70 .fill, .c100.p71 .bar:after,
+.c100.p71 .fill, .c100.p72 .bar:after, .c100.p72 .fill, .c100.p73 .bar:after,
+.c100.p73 .fill, .c100.p74 .bar:after, .c100.p74 .fill, .c100.p75 .bar:after,
+.c100.p75 .fill, .c100.p76 .bar:after, .c100.p76 .fill, .c100.p77 .bar:after,
+.c100.p77 .fill, .c100.p78 .bar:after, .c100.p78 .fill, .c100.p79 .bar:after,
+.c100.p79 .fill, .c100.p80 .bar:after, .c100.p80 .fill, .c100.p81 .bar:after,
+.c100.p81 .fill, .c100.p82 .bar:after, .c100.p82 .fill, .c100.p83 .bar:after,
+.c100.p83 .fill, .c100.p84 .bar:after, .c100.p84 .fill, .c100.p85 .bar:after,
+.c100.p85 .fill, .c100.p86 .bar:after, .c100.p86 .fill, .c100.p87 .bar:after,
+.c100.p87 .fill, .c100.p88 .bar:after, .c100.p88 .fill, .c100.p89 .bar:after,
+.c100.p89 .fill, .c100.p90 .bar:after, .c100.p90 .fill, .c100.p91 .bar:after,
+.c100.p91 .fill, .c100.p92 .bar:after, .c100.p92 .fill, .c100.p93 .bar:after,
+.c100.p93 .fill, .c100.p94 .bar:after, .c100.p94 .fill, .c100.p95 .bar:after,
+.c100.p95 .fill, .c100.p96 .bar:after, .c100.p96 .fill, .c100.p97 .bar:after,
+.c100.p97 .fill, .c100.p98 .bar:after, .c100.p98 .fill, .c100.p99 .bar:after,
+.c100.p99 .fill, .c100.p100 .bar:after, .c100.p100 .fill {
+  @include rotation(180deg);
+}
+
+.c100 {
+  position: relative;
+  font-size: 120px;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  float: left;
+  margin: 0 0.1em 0.1em 0;
+  background-color: $c-greylighter;
+}
+.c100 *,
+.c100 *:before,
+.c100 *:after {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+.c100.center {
+  float: none;
+  margin: 0 auto;
+}
+.c100.big {
+  font-size: 240px;
+}
+.c100.small {
+  font-size: 80px;
+}
+
+.c100 > span {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 5em;
+  line-height: 5em;
+  font-size: 0.2em;
+  color: #cccccc;
+  display: block;
+  text-align: center;
+  white-space: nowrap;
+  @include transition_property(all);
+  @include transition_duration(0.2s)
+  -webkit-transition-timing-function: ease-out;
+  -moz-transition-timing-function: ease-out;
+  -o-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.c100:after {
+  position: absolute;
+  top: 0.08em;
+  left: 0.08em;
+  display: block;
+  content: " ";
+  border-radius: 50%;
+  background-color: #f5f5f5;
+  width: 0.84em;
+  height: 0.84em;
+  @include transition_property(all);
+  @include transition_duration(0.2s)
+  -webkit-transition-timing-function: ease-in;
+  -moz-transition-timing-function: ease-in;
+  -o-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
+}
+
+.c100 .slice {
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  clip: rect(0em, 1em, 1em, 0.5em);
+}
+
+.c100.p1 .bar { @include rotation(3.6deg) }
+.c100.p2 .bar { @include rotation(7.2deg) }
+.c100.p3 .bar { @include rotation(10.8deg) }
+.c100.p4 .bar { @include rotation(14.4deg) }
+.c100.p5 .bar { @include rotation(18deg) }
+.c100.p6 .bar { @include rotation(21.6deg) }
+.c100.p7 .bar { @include rotation(25.2deg) }
+.c100.p8 .bar { @include rotation(28.8deg) }
+.c100.p9 .bar { @include rotation(32.4deg) }
+.c100.p10 .bar { @include rotation(36deg) }
+.c100.p11 .bar { @include rotation(39deg) }
+.c100.p12 .bar { @include rotation(43.2deg) }
+.c100.p13 .bar { @include rotation(46.800000000000004deg) }
+.c100.p14 .bar { @include rotation(50.4deg) }
+.c100.p15 .bar { @include rotation(54deg) }
+.c100.p16 .bar { @include rotation(57.6deg) }
+.c100.p17 .bar { @include rotation(61.2deg) }
+.c100.p18 .bar { @include rotation(64.8deg) }
+.c100.p19 .bar { @include rotation(68.4deg) }
+.c100.p20 .bar { @include rotation(72deg) }
+.c100.p21 .bar { @include rotation(75.60000000000001deg)}
+.c100.p22 .bar { @include rotation(79.2deg) }
+.c100.p23 .bar { @include rotation(82.8deg) }
+.c100.p24 .bar { @include rotation(86.4deg) }
+.c100.p25 .bar { @include rotation(90deg) }
+.c100.p26 .bar { @include rotation(93.60000000000001deg) }
+.c100.p27 .bar { @include rotation(97.2deg) }
+.c100.p28 .bar { @include rotation(100.8deg) }
+.c100.p29 .bar { @include rotation(104.4deg) }
+.c100.p30 .bar { @include rotation(108deg) }
+.c100.p31 .bar { @include rotation(111.60000000000001deg) }
+.c100.p32 .bar { @include rotation(115.2deg) }
+.c100.p33 .bar { @include rotation(118.8deg) }
+.c100.p34 .bar { @include rotation(122.4deg) }
+.c100.p35 .bar { @include rotation(126deg) }
+.c100.p36 .bar { @include rotation(129.6deg) }
+.c100.p37 .bar { @include rotation(133.20000000000002deg) }
+.c100.p38 .bar { @include rotation(136.8deg) }
+.c100.p39 .bar { @include rotation(140.4deg) }
+.c100.p40 .bar { @include rotation(144deg) }
+.c100.p41 .bar { @include rotation(147.6deg) }
+.c100.p42 .bar { @include rotation(151.20000000000002deg) }
+.c100.p43 .bar { @include rotation(154.8deg) }
+.c100.p44 .bar { @include rotation(158.4deg) }
+.c100.p45 .bar { @include rotation(162deg) }
+.c100.p46 .bar { @include rotation(165.6deg) }
+.c100.p47 .bar { @include rotation(169.20000000000002deg) }
+.c100.p48 .bar { @include rotation(172.8deg) }
+.c100.p49 .bar { @include rotation(176.4deg) }
+.c100.p50 .bar { @include rotation(180deg) }
+.c100.p51 .bar { @include rotation(183.6deg) }
+.c100.p52 .bar { @include rotation(187.20000000000002deg) }
+.c100.p53 .bar { @include rotation(190.8deg) }
+.c100.p54 .bar { @include rotation(194.4deg) }
+.c100.p55 .bar { @include rotation(198deg) }
+.c100.p56 .bar { @include rotation(201.6deg) }
+.c100.p57 .bar { @include rotation(205.20000000000002deg) }
+.c100.p58 .bar { @include rotation(208.8deg) }
+.c100.p59 .bar { @include rotation(212.4deg) }
+.c100.p60 .bar { @include rotation(216deg) }
+.c100.p61 .bar { @include rotation(219.6deg) }
+.c100.p62 .bar { @include rotation(223.20000000000002deg) }
+.c100.p63 .bar { @include rotation(226.8deg) }
+.c100.p64 .bar { @include rotation(230.4deg) }
+.c100.p65 .bar { @include rotation(234deg) }
+.c100.p66 .bar { @include rotation(237.6deg) }
+.c100.p67 .bar { @include rotation(241.20000000000002deg) }
+.c100.p68 .bar { @include rotation(244.8deg) }
+.c100.p69 .bar { @include rotation(248.4deg) }
+.c100.p70 .bar { @include rotation(252deg) }
+.c100.p71 .bar { @include rotation(255.6deg) }
+.c100.p72 .bar { @include rotation(259.2deg) }
+.c100.p73 .bar { @include rotation(262.8deg) }
+.c100.p74 .bar { @include rotation(266.40000000000003deg) }
+.c100.p75 .bar { @include rotation(270deg) }
+.c100.p76 .bar { @include rotation(273.6deg) }
+.c100.p77 .bar { @include rotation(277.2deg) }
+.c100.p78 .bar { @include rotation(280.8deg) }
+.c100.p79 .bar { @include rotation(284.40000000000003deg) }
+.c100.p80 .bar { @include rotation(288deg) }
+.c100.p81 .bar { @include rotation(291.6deg) }
+.c100.p82 .bar { @include rotation(295.2deg) }
+.c100.p83 .bar { @include rotation(298.8deg) }
+.c100.p84 .bar { @include rotation(302.40000000000003deg) }
+.c100.p85 .bar { @include rotation(306deg) }
+.c100.p86 .bar { @include rotation(309.6deg) }
+.c100.p87 .bar { @include rotation(313.2deg) }
+.c100.p88 .bar { @include rotation(316.8deg) }
+.c100.p89 .bar { @include rotation(320.40000000000003deg) }
+.c100.p90 .bar { @include rotation(324deg) }
+.c100.p91 .bar { @include rotation(327.6deg) }
+.c100.p92 .bar { @include rotation(331.2deg) }
+.c100.p93 .bar { @include rotation(334.8deg) }
+.c100.p94 .bar { @include rotation(338.40000000000003deg) }
+.c100.p95 .bar { @include rotation(342deg) }
+.c100.p96 .bar { @include rotation(345.6deg) }
+.c100.p97 .bar { @include rotation(349.2deg) }
+.c100.p98 .bar { @include rotation(352.8deg) }
+.c100.p99 .bar { @include rotation(356.40000000000003deg) }
+.c100.p100 .bar { @include rotation(360deg) }
+.c100:hover {
+  cursor: default;
+}
+.c100:hover > span {
+  width: 3.33em;
+  line-height: 3.33em;
+  font-size: 0.3em;
+  color: #307bbb;
+}
+.c100:hover:after {
+  top: 0.04em;
+  left: 0.04em;
+  width: 0.92em;
+  height: 0.92em;
+}
+.c100.dark {
+  background-color: #777777;
+}
+.c100.dark .bar,
+.c100.dark .fill {
+  border-color: #c6ff00 !important;
+}
+.c100.dark > span {
+  color: #777777;
+}
+.c100.dark:after {
+  background-color: #666666;
+}
+.c100.dark:hover > span {
+  color: #c6ff00;
+}
+.c100.green .bar,
+.c100.green .fill {
+  border-color: $c-green !important;
+}
+.c100.green:hover > span {
+  color: $c-green;
+}
+.c100.green.dark .bar,
+.c100.green.dark .fill {
+  border-color: #5fd400 !important;
+}
+.c100.green.dark:hover > span {
+  color: #5fd400;
+}
+.c100.orange .bar,
+.c100.orange .fill {
+  border-color: #dd9d22 !important;
+}
+.c100.orange:hover > span {
+  color: #dd9d22;
+}
+.c100.orange.dark .bar,
+.c100.orange.dark .fill {
+  border-color: #e08833 !important;
+}
+.c100.orange.dark:hover > span {
+  color: #e08833;
+}

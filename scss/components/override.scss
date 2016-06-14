@@ -1,0 +1,23 @@
+// Sidebar Menu
+.menu .active > a{
+	background-color: #092D54 !important;
+}
+
+.menu > li > a i{
+	margin: 0 !important;
+}
+
+// Topbar Menu
+.top-bar{
+	background-color: #fff !important;
+}
+
+// main content
+.off-canvas-content{
+	background-color: $c-greyGlobalBg !important;
+	min-height: 100vh  !important ;
+}
+
+.label{
+	border-radius: 10px !important;
+}

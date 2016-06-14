@@ -1,0 +1,37 @@
+.card-1{
+	@extend .padding-1;
+	@extend .bg-white;
+	@extend .box-shadow;
+	@extend .mb-1;
+	@extend .pb-1;
+	@extend .txt-color-greylight;
+
+	div{
+		@extend .txt-d9;
+		@extend .txt-color-greylight;
+	}
+
+	i{
+		@extend	.txt-color-greylighter;
+		@extend .mt-half;
+		&.active{
+			@extend .txt-color-green;
+		}
+	}
+
+	.card-1-c2{
+		font-weight: bold;
+		@extend .txt-color-blue;
+	}
+	
+	&:first-child{
+		h2{
+		@extend .txt-bold;
+		}
+	}
+	&:last-child{
+		font-weight: normal !important;
+	}
+
+
+}
