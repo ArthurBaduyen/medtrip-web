@@ -1,49 +1,5 @@
-.container{
-	.title{
-		color: $c-sectiontitle;
-		font-weight: bold;
-	}
-	// foundation column
-	> div{ 
-		> div.container-content{
-			// @extend .padding-half;
-			@extend .box-shadow;
-			@extend .mb-1;
-			@extend .pl-1;
-			@extend .pt-1;
-			@extend .pr-1;
-			@extend .pb-half;
-			@extend .bg-white;
-		}
-	}
-}
-
-// div.container
-// 	div
-// 		div.content
-// 		/div
-// 	/div
-// /div
-
 .title{
 	color: $c-sectiontitle;
 	font-weight: bold;
 	@extend .pb-half;
 }
-// .grpbutton{
-// 	a{
-// 		display: inline;
-// 	}
-// }
-
-
-ul.grbbuttonlist{
-	list-style-type:none;
-	display:block;
-
-	li { margin-left:.5rem !important; }
-	li:first-child{ }
-	li:last-child{ }
-
-}
-

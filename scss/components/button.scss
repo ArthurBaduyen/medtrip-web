@@ -4,8 +4,9 @@
 	text-transform: uppercase;
 	letter-spacing: 1px;
 
-	margin-left: .1rem;
-	margin-right: .1rem;
+	margin-left: .1rem !important;
+	margin-right: .1rem !important;
+	margin-bottom: 0rem !important;
 	
 	&.link {
 		// border: none;
@@ -63,12 +64,10 @@
 			}
 		}
 	}
-}
 
-.btn-1{
-	background-color:rgba(0,0,0,0) !important;
-	border:none;
-	color:#BDBDBD;
-	font-size:1.5rem;
-	margin: 0 !important;
+	&.hamburger{
+		background-color:rgba(0,0,0,0) !important;
+		border:none;
+		color: $c-blue !important; 
+	}
 }

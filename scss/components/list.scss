@@ -8,7 +8,10 @@
 	a{
 		color: $c-greydark;
 		&:active{
-			background-color: $c-greylight;
+			background-color: $c-green;
+		}
+		&:focus{
+			background-color: $c-green;
 		}
 	}
 
