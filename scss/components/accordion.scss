@@ -1,11 +1,16 @@
 .accordion {
+	@extend .box-shadow;
 	margin: 0;
+	@extend .mb-1;
 	> li {
 		&.is-active {
 			.accordion-title {
-				color: rgba($base-body-font-color, $B-text);
-				background-color: $white;
+				@extend .green-text;
 				border: none !important;
+				
+				// &:hover, &:active, &:link{
+				// 	@extend .green, .lighten-4;
+				// }
 			}
 		}
 		&:last-child {
@@ -24,33 +29,14 @@
 }
 
 .accordion-title {
-	padding: 1rem;
+	@extend .padding-1;
 	font-size: 1.125rem;
 	line-height: 1.5em;
-	color: rgba($base-body-font-color, $B-subtext);
-	&:hover, &:link, &:visited, &:active {
-		color: rgba($base-body-font-color, $B-subtext);
-		// background-color: rgba($medium-gray, $B-dividers);
-		background-color: $c-green;
-	}
+	color: $c-greylight;
 
 }
 
-// .accordion-content {
-// 	padding: 1rem;
-// 	border: none !important;
-// }
-
-// :last-child > .accordion-content:last-child{
-// 	border: none !important;
-
-// }
-
-// .accordion-title{
-// 	border-bottom: none !important;
-// }
-
 :last-child:not(.is-active) > .accordion-title{
 	border-bottom: none !important;
-	background-color #323232;
+	background-color: $white;
 }

@@ -24,7 +24,7 @@
 			}
 		}
 	}
-	&.white {
+	&.btnwhite {
 		color: $primary-color;
 		background-color: $white;
 		&.hollow {
@@ -33,7 +33,7 @@
 			border-color: $white;
 		}
 	}
-	&.green {
+	&.btngreen {
 		background-color: $c-green;
 		border: 1px solid $c-green !important;
 		i{
@@ -48,11 +48,11 @@
 
 	}
 
-	&.grey {
+	&.btngrey {
 		background-color: transparent;
 		border: 1px solid $medium-gray !important;
 		i{
-			color: $c-greydark !important;
+			color: $c-greylight !important;
 		}
 
 		&:hover {

@@ -162,109 +162,213 @@
   clip: rect(0em, 1em, 1em, 0.5em);
 }
 
-.c100.p1 .bar { @include rotation(3.6deg) }
-.c100.p2 .bar { @include rotation(7.2deg) }
-.c100.p3 .bar { @include rotation(10.8deg) }
-.c100.p4 .bar { @include rotation(14.4deg) }
-.c100.p5 .bar { @include rotation(18deg) }
-.c100.p6 .bar { @include rotation(21.6deg) }
-.c100.p7 .bar { @include rotation(25.2deg) }
-.c100.p8 .bar { @include rotation(28.8deg) }
-.c100.p9 .bar { @include rotation(32.4deg) }
-.c100.p10 .bar { @include rotation(36deg) }
-.c100.p11 .bar { @include rotation(39deg) }
-.c100.p12 .bar { @include rotation(43.2deg) }
-.c100.p13 .bar { @include rotation(46.800000000000004deg) }
-.c100.p14 .bar { @include rotation(50.4deg) }
-.c100.p15 .bar { @include rotation(54deg) }
-.c100.p16 .bar { @include rotation(57.6deg) }
-.c100.p17 .bar { @include rotation(61.2deg) }
-.c100.p18 .bar { @include rotation(64.8deg) }
-.c100.p19 .bar { @include rotation(68.4deg) }
-.c100.p20 .bar { @include rotation(72deg) }
-.c100.p21 .bar { @include rotation(75.60000000000001deg)}
-.c100.p22 .bar { @include rotation(79.2deg) }
-.c100.p23 .bar { @include rotation(82.8deg) }
-.c100.p24 .bar { @include rotation(86.4deg) }
-.c100.p25 .bar { @include rotation(90deg) }
-.c100.p26 .bar { @include rotation(93.60000000000001deg) }
-.c100.p27 .bar { @include rotation(97.2deg) }
-.c100.p28 .bar { @include rotation(100.8deg) }
-.c100.p29 .bar { @include rotation(104.4deg) }
-.c100.p30 .bar { @include rotation(108deg) }
-.c100.p31 .bar { @include rotation(111.60000000000001deg) }
-.c100.p32 .bar { @include rotation(115.2deg) }
-.c100.p33 .bar { @include rotation(118.8deg) }
-.c100.p34 .bar { @include rotation(122.4deg) }
-.c100.p35 .bar { @include rotation(126deg) }
-.c100.p36 .bar { @include rotation(129.6deg) }
-.c100.p37 .bar { @include rotation(133.20000000000002deg) }
-.c100.p38 .bar { @include rotation(136.8deg) }
-.c100.p39 .bar { @include rotation(140.4deg) }
-.c100.p40 .bar { @include rotation(144deg) }
-.c100.p41 .bar { @include rotation(147.6deg) }
-.c100.p42 .bar { @include rotation(151.20000000000002deg) }
-.c100.p43 .bar { @include rotation(154.8deg) }
-.c100.p44 .bar { @include rotation(158.4deg) }
-.c100.p45 .bar { @include rotation(162deg) }
-.c100.p46 .bar { @include rotation(165.6deg) }
-.c100.p47 .bar { @include rotation(169.20000000000002deg) }
-.c100.p48 .bar { @include rotation(172.8deg) }
-.c100.p49 .bar { @include rotation(176.4deg) }
-.c100.p50 .bar { @include rotation(180deg) }
-.c100.p51 .bar { @include rotation(183.6deg) }
-.c100.p52 .bar { @include rotation(187.20000000000002deg) }
-.c100.p53 .bar { @include rotation(190.8deg) }
-.c100.p54 .bar { @include rotation(194.4deg) }
-.c100.p55 .bar { @include rotation(198deg) }
-.c100.p56 .bar { @include rotation(201.6deg) }
-.c100.p57 .bar { @include rotation(205.20000000000002deg) }
-.c100.p58 .bar { @include rotation(208.8deg) }
-.c100.p59 .bar { @include rotation(212.4deg) }
-.c100.p60 .bar { @include rotation(216deg) }
-.c100.p61 .bar { @include rotation(219.6deg) }
-.c100.p62 .bar { @include rotation(223.20000000000002deg) }
-.c100.p63 .bar { @include rotation(226.8deg) }
-.c100.p64 .bar { @include rotation(230.4deg) }
-.c100.p65 .bar { @include rotation(234deg) }
-.c100.p66 .bar { @include rotation(237.6deg) }
-.c100.p67 .bar { @include rotation(241.20000000000002deg) }
-.c100.p68 .bar { @include rotation(244.8deg) }
-.c100.p69 .bar { @include rotation(248.4deg) }
-.c100.p70 .bar { @include rotation(252deg) }
-.c100.p71 .bar { @include rotation(255.6deg) }
-.c100.p72 .bar { @include rotation(259.2deg) }
-.c100.p73 .bar { @include rotation(262.8deg) }
-.c100.p74 .bar { @include rotation(266.40000000000003deg) }
-.c100.p75 .bar { @include rotation(270deg) }
-.c100.p76 .bar { @include rotation(273.6deg) }
-.c100.p77 .bar { @include rotation(277.2deg) }
-.c100.p78 .bar { @include rotation(280.8deg) }
-.c100.p79 .bar { @include rotation(284.40000000000003deg) }
-.c100.p80 .bar { @include rotation(288deg) }
-.c100.p81 .bar { @include rotation(291.6deg) }
-.c100.p82 .bar { @include rotation(295.2deg) }
-.c100.p83 .bar { @include rotation(298.8deg) }
-.c100.p84 .bar { @include rotation(302.40000000000003deg) }
-.c100.p85 .bar { @include rotation(306deg) }
-.c100.p86 .bar { @include rotation(309.6deg) }
-.c100.p87 .bar { @include rotation(313.2deg) }
-.c100.p88 .bar { @include rotation(316.8deg) }
-.c100.p89 .bar { @include rotation(320.40000000000003deg) }
-.c100.p90 .bar { @include rotation(324deg) }
-.c100.p91 .bar { @include rotation(327.6deg) }
-.c100.p92 .bar { @include rotation(331.2deg) }
-.c100.p93 .bar { @include rotation(334.8deg) }
-.c100.p94 .bar { @include rotation(338.40000000000003deg) }
-.c100.p95 .bar { @include rotation(342deg) }
-.c100.p96 .bar { @include rotation(345.6deg) }
-.c100.p97 .bar { @include rotation(349.2deg) }
-.c100.p98 .bar { @include rotation(352.8deg) }
-.c100.p99 .bar { @include rotation(356.40000000000003deg) }
-.c100.p100 .bar { @include rotation(360deg) }
-.c100:hover {
-  cursor: default;
+.c100{
+  &.p1 .bar { @include rotation(3.6deg) }
+  &.p2 .bar { @include rotation(7.2deg) }
+  &.p3 .bar { @include rotation(10.8deg) }
+  &.p4 .bar { @include rotation(14.4deg) }
+  &.p5 .bar { @include rotation(18deg) }
+  &.p6 .bar { @include rotation(21.6deg) }
+  &.p7 .bar { @include rotation(25.2deg) }
+  &.p8 .bar { @include rotation(28.8deg) }
+  &.p9 .bar { @include rotation(32.4deg) }
+  &.p10 .bar { @include rotation(36deg) }
+  &.p11 .bar { @include rotation(39deg) }
+  &.p12 .bar { @include rotation(43.2deg) }
+  &.p13 .bar { @include rotation(46.800000000000004deg) }
+  &.p14 .bar { @include rotation(50.4deg) }
+  &.p15 .bar { @include rotation(54deg) }
+  &.p16 .bar { @include rotation(57.6deg) }
+  &.p17 .bar { @include rotation(61.2deg) }
+  &.p18 .bar { @include rotation(64.8deg) }
+  &.p19 .bar { @include rotation(68.4deg) }
+  &.p20 .bar { @include rotation(72deg) }
+  &.p21 .bar { @include rotation(75.60000000000001deg)}
+  &.p22 .bar { @include rotation(79.2deg) }
+  &.p23 .bar { @include rotation(82.8deg) }
+  &.p24 .bar { @include rotation(86.4deg) }
+  &.p25 .bar { @include rotation(90deg) }
+  &.p26 .bar { @include rotation(93.60000000000001deg) }
+  &.p27 .bar { @include rotation(97.2deg) }
+  &.p28 .bar { @include rotation(100.8deg) }
+  &.p29 .bar { @include rotation(104.4deg) }
+  &.p30 .bar { @include rotation(108deg) }
+  &.p31 .bar { @include rotation(111.60000000000001deg) }
+  &.p32 .bar { @include rotation(115.2deg) }
+  &.p33 .bar { @include rotation(118.8deg) }
+  &.p34 .bar { @include rotation(122.4deg) }
+  &.p35 .bar { @include rotation(126deg) }
+  &.p36 .bar { @include rotation(129.6deg) }
+  &.p37 .bar { @include rotation(133.20000000000002deg) }
+  &.p38 .bar { @include rotation(136.8deg) }
+  &.p39 .bar { @include rotation(140.4deg) }
+  &.p40 .bar { @include rotation(144deg) }
+  &.p41 .bar { @include rotation(147.6deg) }
+  &.p42 .bar { @include rotation(151.20000000000002deg) }
+  &.p43 .bar { @include rotation(154.8deg) }
+  &.p44 .bar { @include rotation(158.4deg) }
+  &.p45 .bar { @include rotation(162deg) }
+  &.p46 .bar { @include rotation(165.6deg) }
+  &.p47 .bar { @include rotation(169.20000000000002deg) }
+  &.p48 .bar { @include rotation(172.8deg) }
+  &.p49 .bar { @include rotation(176.4deg) }
+  &.p50 .bar { @include rotation(180deg) }
+  &.p51 .bar { @include rotation(183.6deg) }
+  &.p52 .bar { @include rotation(187.20000000000002deg) }
+  &.p53 .bar { @include rotation(190.8deg) }
+  &.p54 .bar { @include rotation(194.4deg) }
+  &.p55 .bar { @include rotation(198deg) }
+  &.p56 .bar { @include rotation(201.6deg) }
+  &.p57 .bar { @include rotation(205.20000000000002deg) }
+  &.p58 .bar { @include rotation(208.8deg) }
+  &.p59 .bar { @include rotation(212.4deg) }
+  &.p60 .bar { @include rotation(216deg) }
+  &.p61 .bar { @include rotation(219.6deg) }
+  &.p62 .bar { @include rotation(223.20000000000002deg) }
+  &.p63 .bar { @include rotation(226.8deg) }
+  &.p64 .bar { @include rotation(230.4deg) }
+  &.p65 .bar { @include rotation(234deg) }
+  &.p66 .bar { @include rotation(237.6deg) }
+  &.p67 .bar { @include rotation(241.20000000000002deg) }
+  &.p68 .bar { @include rotation(244.8deg) }
+  &.p69 .bar { @include rotation(248.4deg) }
+  &.p70 .bar { @include rotation(252deg) }
+  &.p71 .bar { @include rotation(255.6deg) }
+  &.p72 .bar { @include rotation(259.2deg) }
+  &.p73 .bar { @include rotation(262.8deg) }
+  &.p74 .bar { @include rotation(266.40000000000003deg) }
+  &.p75 .bar { @include rotation(270deg) }
+  &.p76 .bar { @include rotation(273.6deg) }
+  &.p77 .bar { @include rotation(277.2deg) }
+  &.p78 .bar { @include rotation(280.8deg) }
+  &.p79 .bar { @include rotation(284.40000000000003deg) }
+  &.p80 .bar { @include rotation(288deg) }
+  &.p81 .bar { @include rotation(291.6deg) }
+  &.p82 .bar { @include rotation(295.2deg) }
+  &.p83 .bar { @include rotation(298.8deg) }
+  &.p84 .bar { @include rotation(302.40000000000003deg) }
+  &.p85 .bar { @include rotation(306deg) }
+  &.p86 .bar { @include rotation(309.6deg) }
+  &.p87 .bar { @include rotation(313.2deg) }
+  &.p88 .bar { @include rotation(316.8deg) }
+  &.p89 .bar { @include rotation(320.40000000000003deg) }
+  &.p90 .bar { @include rotation(324deg) }
+  &.p91 .bar { @include rotation(327.6deg) }
+  &.p92 .bar { @include rotation(331.2deg) }
+  &.p93 .bar { @include rotation(334.8deg) }
+  &.p94 .bar { @include rotation(338.40000000000003deg) }
+  &.p95 .bar { @include rotation(342deg) }
+  &.p96 .bar { @include rotation(345.6deg) }
+  &.p97 .bar { @include rotation(349.2deg) }
+  &.p98 .bar { @include rotation(352.8deg) }
+  &.p99 .bar { @include rotation(356.40000000000003deg) }
+  &.p100 .bar { @include rotation(360deg) }
+  &:hover { cursor: default; }
 }
+
+
+// .c100.p1 .bar { @include rotation(3.6deg) }
+// .c100.p2 .bar { @include rotation(7.2deg) }
+// .c100.p3 .bar { @include rotation(10.8deg) }
+// .c100.p4 .bar { @include rotation(14.4deg) }
+// .c100.p5 .bar { @include rotation(18deg) }
+// .c100.p6 .bar { @include rotation(21.6deg) }
+// .c100.p7 .bar { @include rotation(25.2deg) }
+// .c100.p8 .bar { @include rotation(28.8deg) }
+// .c100.p9 .bar { @include rotation(32.4deg) }
+// .c100.p10 .bar { @include rotation(36deg) }
+// .c100.p11 .bar { @include rotation(39deg) }
+// .c100.p12 .bar { @include rotation(43.2deg) }
+// .c100.p13 .bar { @include rotation(46.800000000000004deg) }
+// .c100.p14 .bar { @include rotation(50.4deg) }
+// .c100.p15 .bar { @include rotation(54deg) }
+// .c100.p16 .bar { @include rotation(57.6deg) }
+// .c100.p17 .bar { @include rotation(61.2deg) }
+// .c100.p18 .bar { @include rotation(64.8deg) }
+// .c100.p19 .bar { @include rotation(68.4deg) }
+// .c100.p20 .bar { @include rotation(72deg) }
+// .c100.p21 .bar { @include rotation(75.60000000000001deg)}
+// .c100.p22 .bar { @include rotation(79.2deg) }
+// .c100.p23 .bar { @include rotation(82.8deg) }
+// .c100.p24 .bar { @include rotation(86.4deg) }
+// .c100.p25 .bar { @include rotation(90deg) }
+// .c100.p26 .bar { @include rotation(93.60000000000001deg) }
+// .c100.p27 .bar { @include rotation(97.2deg) }
+// .c100.p28 .bar { @include rotation(100.8deg) }
+// .c100.p29 .bar { @include rotation(104.4deg) }
+// .c100.p30 .bar { @include rotation(108deg) }
+// .c100.p31 .bar { @include rotation(111.60000000000001deg) }
+// .c100.p32 .bar { @include rotation(115.2deg) }
+// .c100.p33 .bar { @include rotation(118.8deg) }
+// .c100.p34 .bar { @include rotation(122.4deg) }
+// .c100.p35 .bar { @include rotation(126deg) }
+// .c100.p36 .bar { @include rotation(129.6deg) }
+// .c100.p37 .bar { @include rotation(133.20000000000002deg) }
+// .c100.p38 .bar { @include rotation(136.8deg) }
+// .c100.p39 .bar { @include rotation(140.4deg) }
+// .c100.p40 .bar { @include rotation(144deg) }
+// .c100.p41 .bar { @include rotation(147.6deg) }
+// .c100.p42 .bar { @include rotation(151.20000000000002deg) }
+// .c100.p43 .bar { @include rotation(154.8deg) }
+// .c100.p44 .bar { @include rotation(158.4deg) }
+// .c100.p45 .bar { @include rotation(162deg) }
+// .c100.p46 .bar { @include rotation(165.6deg) }
+// .c100.p47 .bar { @include rotation(169.20000000000002deg) }
+// .c100.p48 .bar { @include rotation(172.8deg) }
+// .c100.p49 .bar { @include rotation(176.4deg) }
+// .c100.p50 .bar { @include rotation(180deg) }
+// .c100.p51 .bar { @include rotation(183.6deg) }
+// .c100.p52 .bar { @include rotation(187.20000000000002deg) }
+// .c100.p53 .bar { @include rotation(190.8deg) }
+// .c100.p54 .bar { @include rotation(194.4deg) }
+// .c100.p55 .bar { @include rotation(198deg) }
+// .c100.p56 .bar { @include rotation(201.6deg) }
+// .c100.p57 .bar { @include rotation(205.20000000000002deg) }
+// .c100.p58 .bar { @include rotation(208.8deg) }
+// .c100.p59 .bar { @include rotation(212.4deg) }
+// .c100.p60 .bar { @include rotation(216deg) }
+// .c100.p61 .bar { @include rotation(219.6deg) }
+// .c100.p62 .bar { @include rotation(223.20000000000002deg) }
+// .c100.p63 .bar { @include rotation(226.8deg) }
+// .c100.p64 .bar { @include rotation(230.4deg) }
+// .c100.p65 .bar { @include rotation(234deg) }
+// .c100.p66 .bar { @include rotation(237.6deg) }
+// .c100.p67 .bar { @include rotation(241.20000000000002deg) }
+// .c100.p68 .bar { @include rotation(244.8deg) }
+// .c100.p69 .bar { @include rotation(248.4deg) }
+// .c100.p70 .bar { @include rotation(252deg) }
+// .c100.p71 .bar { @include rotation(255.6deg) }
+// .c100.p72 .bar { @include rotation(259.2deg) }
+// .c100.p73 .bar { @include rotation(262.8deg) }
+// .c100.p74 .bar { @include rotation(266.40000000000003deg) }
+// .c100.p75 .bar { @include rotation(270deg) }
+// .c100.p76 .bar { @include rotation(273.6deg) }
+// .c100.p77 .bar { @include rotation(277.2deg) }
+// .c100.p78 .bar { @include rotation(280.8deg) }
+// .c100.p79 .bar { @include rotation(284.40000000000003deg) }
+// .c100.p80 .bar { @include rotation(288deg) }
+// .c100.p81 .bar { @include rotation(291.6deg) }
+// .c100.p82 .bar { @include rotation(295.2deg) }
+// .c100.p83 .bar { @include rotation(298.8deg) }
+// .c100.p84 .bar { @include rotation(302.40000000000003deg) }
+// .c100.p85 .bar { @include rotation(306deg) }
+// .c100.p86 .bar { @include rotation(309.6deg) }
+// .c100.p87 .bar { @include rotation(313.2deg) }
+// .c100.p88 .bar { @include rotation(316.8deg) }
+// .c100.p89 .bar { @include rotation(320.40000000000003deg) }
+// .c100.p90 .bar { @include rotation(324deg) }
+// .c100.p91 .bar { @include rotation(327.6deg) }
+// .c100.p92 .bar { @include rotation(331.2deg) }
+// .c100.p93 .bar { @include rotation(334.8deg) }
+// .c100.p94 .bar { @include rotation(338.40000000000003deg) }
+// .c100.p95 .bar { @include rotation(342deg) }
+// .c100.p96 .bar { @include rotation(345.6deg) }
+// .c100.p97 .bar { @include rotation(349.2deg) }
+// .c100.p98 .bar { @include rotation(352.8deg) }
+// .c100.p99 .bar { @include rotation(356.40000000000003deg) }
+// .c100.p100 .bar { @include rotation(360deg) }
+// .c100:hover { cursor: default; }
+
 .c100:hover > span {
   width: 3.33em;
   line-height: 3.33em;

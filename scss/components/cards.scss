@@ -26,7 +26,7 @@
 	
 	&:first-child{
 		h2{
-		@extend .txt-bold;
+			font-weight: bold !important;
 		}
 	}
 	&:last-child{
